@@ -1,0 +1,29 @@
+.html,* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 120vh;
+}
+
+a {
+text-decoration: none;
+cursor: pointer;
+}
+
+.nav_menu {
+    display: flex; 
+    justify-content: center;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    font-size: 1.175rem;
+    color: black;
+}

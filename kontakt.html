@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="/css-standard/standard-style.css" />
+    <link rel="stylesheet" href="./style-kontakt.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <ul class="nav_menu">
+        <a href="./index.html"><li class="menu_list">Strona główna</li></a>
+        <a href="./info.html"><li class="menu_list">Info</li></a>
+        <a href="./kontakt.html"><li class="menu_list">Kontakt</li></a>
+      </ul>
+    </nav>
+    <main>
+    <form action="https://httpbin.org/post" method="POST">
+      <div class="form-row">
+      <div id="container">
+
+        <span class="input">
+          <input type="text" class="input__field" id="input-1" />
+          <label for="input-1" class="input__label">
+            <span class="input__label-content">Imię</span>
+        </label>
+        </span>
+      
+        <span class="input">
+          <input type="text" class="input__field" id="input-2" />
+          <label for="input-2" class="input__label">
+            <span class="input__label-content">Nazwisko</span>
+          </label>
+        </span>
+      
+        <span class="input">
+          <input type="text" class="input__field" id="input-3" />
+          <label for="input-3" class="input__label">
+            <span class="input__label-content">nr telefonu</span>
+          </label>
+        </span>
+      
+        <span class="input">
+          <input type="text" class="input__field" id="input-4" />
+          <label for="input-4" class="input__label">
+            <span class="input__label-content">Email</span>
+          </label>
+        </span>
+      
+        <span class="input message">
+          <textarea class="input__field" id="input-5"></textarea>
+          <label for="input-5" class="input__label">
+            <span class="input__label-content">Wiadomość</span>
+          </label>
+        </span>
+        <button style="cursor: pointer;" id="send-button" type="button">Wyślij</button>
+      </div>
+    </main>
+    <footer>
+      <ul class="nav_menu">
+        <a href="./index.html"><li class="menu_list">Strona główna</li></a>
+        <a href="./info.html"><li class="menu_list">Info</li></a>
+        <a href="./kontakt.html"><li class="menu_list">Kontakt</li></a>
+      </ul>
+    </footer>
+  </body>
+</html>

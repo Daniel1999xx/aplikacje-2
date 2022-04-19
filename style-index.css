@@ -1,0 +1,42 @@
+.nav {
+    background-image: url("/image/tesla-6889042_960_720.jpg");
+    position: relative;
+}
+
+.present_info {
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+
+
+.present_headline {
+    font-size: 4rem;
+    color: goldenrod;
+    text-align: center;
+}
+
+
+.present_buttons {
+   width: 170px;
+   padding: 0px 20px;
+   border-radius: 50px;
+   cursor: pointer;
+}
+
+
+button {
+    font-size: 20px;
+    text-decoration: none;
+    transition:background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 39%, rgba(0,212,255,1) 100%);
+}
